@@ -108,6 +108,39 @@
   margin-left: 0.5rem;
 }
 
+.hero {
+margin-top: 7rem;
+}
+
+.heroContainer {
+
+}
+
+.header {
+background-color: #35527a;
+padding-bottom: 1rem;
+}
+
+.logo {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.navMenu {
+  margin-top: 3.5rem;
+  text-align: center;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.navMenu ul li {
+  display: inline;
+  margin: 0.5rem;
+  color: white;
+}
+
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

@@ -1,7 +1,17 @@
+import logo from "../public/images/homepage-images/WATSON-LOGO-STRETCHED-TRANSPARENT.png";
+import Image from "next/image";
+
 const Logo = () => {
   return (
     <div>
-      <h1>Watsons Panel & Paint</h1>
+      <Image
+        src={logo}
+        alt="watson's panel and paint logo"
+        width={400}
+        height={50}
+      />
     </div>
   );
 };
+
+export default Logo;
