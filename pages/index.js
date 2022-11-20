@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 
-import mainImage from "../public/images/homepage-images/hero-main.jpg";
+import InsuranceCompanies from "../components/InsuranceCompanies";
 
 export default function Home() {
   return (
@@ -14,12 +14,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.heroContainer}>
-          <Image
-            src={mainImage}
-            alt="workshop main image"
-            layout="fill"
-            className={styles.hero}
-          />
+          <div className={styles.heroOverlay}>
+            <h2>Watson's Panel and Paint</h2>
+          </div>
+        </div>
+        <div className={styles.insuranceCompanies}>
+          <InsuranceCompanies />
         </div>
       </main>
 
