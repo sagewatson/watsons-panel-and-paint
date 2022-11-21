@@ -1,12 +1,11 @@
-// import Image from "next/image";
-import HomePageImage from "../../images/homepage-images/home-page-image.jpg";
+import styles from "../styles/Home.module.css";
 
 const MainSlider = () => {
   return (
-    <div>
-      {/* <Image> */}
-      <img src={HomePageImage} alt="home-page-image" />
-      {/* </Image> */}
+    <div className={styles.heroContainer}>
+      <div className={styles.heroOverlay}>
+        <h2>Watson's Panel and Paint</h2>
+      </div>
     </div>
   );
 };

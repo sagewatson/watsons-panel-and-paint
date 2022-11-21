@@ -4,6 +4,8 @@ import styles from "../styles/Home.module.css";
 import Header from "../components/Header";
 
 import InsuranceCompanies from "../components/InsuranceCompanies";
+import NewFacilities from "../components/NewFacilities";
+import MainSlider from "../components/MainSlider";
 
 export default function Home() {
   return (
@@ -13,14 +15,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.heroContainer}>
-          <div className={styles.heroOverlay}>
-            <h2>Watson's Panel and Paint</h2>
-          </div>
-        </div>
+        <MainSlider />
         <div className={styles.insuranceCompanies}>
           <InsuranceCompanies />
         </div>
+        <NewFacilities />
       </main>
 
       <footer className={styles.footer}>
