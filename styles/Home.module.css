@@ -24,9 +24,10 @@
   background-image: url('../public/images/homepage-images/hero-main.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin: 0;
+  height: 80vh;
+  margin: -1.4rem;
   background-position: center center;
+
 }
 
 .heroOverlay {
@@ -60,6 +61,18 @@ padding-bottom: 1rem;
   color: white;
 }
 
+.phoneIcon {
+  margin-right: 0.6rem;
+  color: rgb(184, 184, 184);
+  border-color: black;
+  border-radius: 10px;
+}
+
+.phoneContact {
+  background-color: rgb(209, 239, 88);
+  padding: 0.6rem;
+}
+
 /* insurance companies */
 
 .insuranceCompanies {
@@ -69,9 +82,64 @@ padding-bottom: 1rem;
 
 .insuranceImages {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  margin: 4rem;
 }
 
 /* new facilities */
 
+.paintBooth {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #35527a;
+  height: fit-content
+}
+
+.paintBoothImage {
+  object-fit: cover;
+  width: 100%;
+height: 25rem;
+}
+
+.paintBoothText {
+  text-align: center;
+  color: white;
+}
+
+/* icons */
+
+.ourServices{
+  text-align: center;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 3rem;
+  text-align: center;
+  margin: 2rem 6rem;
+  line-height: 3rem;
+}
+
+.icons p {
+  font-size: 1rem;
+  }
+
+/* book a quote CTA  */
+
+.workshopCarsBackground {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../public/images/homepage-images/workshop-cars.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin: 0;
+  background-position: center center;
+}
+
+.bookQuoteContainer {
+  color: white;
+  text-align: center;
+  padding-top: 9rem;
+}
 

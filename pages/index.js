@@ -6,6 +6,8 @@ import Header from "../components/Header";
 import InsuranceCompanies from "../components/InsuranceCompanies";
 import NewFacilities from "../components/NewFacilities";
 import MainSlider from "../components/MainSlider";
+import Services from "../components/Services";
+import BookQuoteCta from "../components/BookQuoteCta";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
           <InsuranceCompanies />
         </div>
         <NewFacilities />
+        <Services />
+        <BookQuoteCta />
       </main>
 
       <footer className={styles.footer}>

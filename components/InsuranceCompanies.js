@@ -22,6 +22,8 @@ import tradeMeLogo from "../public/images/homepage-images/insurance-logos/trade-
 import veroLogo from "../public/images/homepage-images/insurance-logos/vero.jpg";
 import toyotaLogo from "../public/images/homepage-images/insurance-logos/toyota.jpg";
 
+// add FMG and Protecta Logo 100px x 100px
+
 const InsuranceCompanies = () => {
   return (
     <div className={styles.insuranceContainer}>
