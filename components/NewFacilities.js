@@ -15,9 +15,10 @@ const NewFacilities = () => {
         <div className={styles.paintBoothText}>
           <h2>The latest gear to get your car repaired faster</h2>
           <p>
-            gfdsfdgdfsgdsfgsdfgsdfgsdfgsdfgdsfgsgsfdgfsdgfsdgfd
-            gfdsfdgdfsgdsfgsdfgsdfgsdfgfdsafdsafsdfgdsfgsgsfdgfsdgfsdgfdgfds
-            gdfs
+            At Watson's Panel & Paint, we pride ourselves on our ability to get
+            your car up and running on the road again as quick as possible.
+            After recent rennovations, we now have the facilities to get your
+            car looking as good as new and faster than before.
           </p>
         </div>
       </div>

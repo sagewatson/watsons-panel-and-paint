@@ -21,11 +21,11 @@
 }
 
 .heroContainer {
-  background-image: url('../public/images/homepage-images/hero-main.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../public/images/homepage-images/main-slider.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  margin: -1.4rem;
+  /* margin: -1.4rem; */
   background-position: center center;
 
 }
@@ -47,10 +47,8 @@ padding-bottom: 1rem;
   padding-top: 1rem;
 }
 
-/* header */
-
 .navMenu {
-  margin-top: 3.5rem;
+  margin-top: 2rem;
   text-align: center;
   font-weight: 500;
 }
@@ -69,9 +67,64 @@ padding-bottom: 1rem;
 }
 
 .phoneContact {
-  background-color: rgb(209, 239, 88);
+  background-color: rgb(49, 49, 49);
   padding: 0.6rem;
 }
+
+.heroOverlay {
+  padding-top: 12rem;
+}
+
+.mainHeading { 
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+.subHeading {
+  margin: 0 20rem 2rem 20rem;
+  font-size: 1.2rem;
+}
+
+.servicesButton {
+  background: none;
+  border: 2px solid rgb(255, 255, 255);
+  font-family: "montserrat",sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  color: white;
+}
+
+.contactButton {
+  background: none;
+  border: 2px solid rgb(255, 255, 255);
+  font-family: "montserrat",sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  color: white;
+}
+
+.contactButton:hover {
+  background-color: #616161;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.servicesButton:hover {
+  background-color: #616161;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
 
 /* insurance companies */
 
@@ -105,6 +158,7 @@ height: 25rem;
 .paintBoothText {
   text-align: center;
   color: white;
+  margin: 5rem;
 }
 
 /* icons */
@@ -143,3 +197,30 @@ height: 25rem;
   padding-top: 9rem;
 }
 
+.bookNowButton {
+  background: none;
+  border: 2px solid rgb(255, 255, 255);
+  font-family: "montserrat",sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  color: white;
+}
+
+.bookNowButton:hover {
+  background-color: #616161;
+  -webkit-transition: background-color 300ms linear;
+  -ms-transition: background-color 300ms linear;
+  transition: background-color 300ms linear;
+}
+
+.bookQuoteHeading {
+  font-size: 2rem;
+}
+
+.bookQuoteSubHeading {
+  font-size: 1.2rem;
+}

@@ -18,12 +18,12 @@ export default function Home() {
 
       <main className={styles.main}>
         <MainSlider />
+        <Services />
+        <BookQuoteCta />
         <div className={styles.insuranceCompanies}>
           <InsuranceCompanies />
         </div>
         <NewFacilities />
-        <Services />
-        <BookQuoteCta />
       </main>
 
       <footer className={styles.footer}>

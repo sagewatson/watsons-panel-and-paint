@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 
 const Nav = () => {
   return (
-    <div>
+    <div className={styles.menuContainer}>
       <ul className={styles.menuList}>
         <li>Home</li>
         <li>Book an Assessment</li>
