@@ -15,7 +15,7 @@ const Nav = () => {
           <span className={styles.phoneIcon}>
             <FontAwesomeIcon icon={faPhone} />
           </span>
-          094082199
+          094082520
         </li>
       </ul>
     </div>

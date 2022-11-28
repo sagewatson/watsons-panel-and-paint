@@ -8,7 +8,7 @@ const BookQuoteCta = () => {
         <p className={styles.bookQuoteSubHeading}>
           At Watson's Panel & Paint we offer free quotes - book one online now
         </p>
-        <button className={styles.bookNowButton}>Book now</button>
+        <button className={styles.btn}>Book now</button>
       </div>
     </div>
   );

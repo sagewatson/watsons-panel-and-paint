@@ -3,7 +3,7 @@
 .footer {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   text-align: center;
   border-top: 1px solid #eaeaea;
   background-color: rgb(31, 31, 31);
@@ -20,11 +20,13 @@
   font-size: 0.8rem;
 }
 
+.openingHours {
+  line-height: 2rem;
+}
 
 /* header */
 
 .header {
-/* background-color: #35527a; */
 background-color: rgb(31, 31, 31);
 padding-bottom: 1rem;
 box-shadow: 15px 20px #fdfdfd;
@@ -50,13 +52,12 @@ box-shadow: 15px 20px #fdfdfd;
 .phoneIcon {
   margin-right: 0.6rem;
   color: rgb(184, 184, 184);
-  border-color: black;
-  border-radius: 10px;
 }
 
 .phoneContact {
   background-color: rgb(51, 82, 139);
   padding: 0.6rem;
+  border-radius: 20px;
 }
 
 /* main slider */
@@ -93,7 +94,7 @@ box-shadow: 15px 20px #fdfdfd;
   color:white
 }
 
-.servicesButton {
+.btn {
   background: none;
   border: 2px solid rgb(255, 255, 255);
   font-family: "montserrat",sans-serif;
@@ -107,34 +108,12 @@ box-shadow: 15px 20px #fdfdfd;
   background-color: rgb(51, 82, 139);
 }
 
-.contactButton {
-  background: none;
-  border: 2px solid rgb(255, 255, 255);
-  font-family: "montserrat",sans-serif;
-  text-transform: uppercase;
-  padding: 12px 20px;
-  min-width: 200px;
-  margin: 10px;
-  cursor: pointer;
-  transition: color 0.4s linear;
-  color: white;
-  background-color: rgb(51, 82, 139);
-}
-
-.contactButton:hover {
+.btn:hover {
   background-color: #616161;
   -webkit-transition: background-color 300ms linear;
   -ms-transition: background-color 300ms linear;
   transition: background-color 300ms linear;
 }
-
-.servicesButton:hover {
-  background-color: #616161;
-  -webkit-transition: background-color 300ms linear;
-  -ms-transition: background-color 300ms linear;
-  transition: background-color 300ms linear;
-}
-
 
 /* insurance companies */
 
@@ -207,26 +186,6 @@ height: 25rem;
   padding-top: 9rem;
 }
 
-.bookNowButton {
-  background: none;
-  border: 2px solid rgb(255, 255, 255);
-  font-family: "montserrat",sans-serif;
-  text-transform: uppercase;
-  padding: 12px 20px;
-  min-width: 200px;
-  margin: 10px;
-  cursor: pointer;
-  transition: color 0.4s linear;
-  color: white;
-}
-
-.bookNowButton:hover {
-  background-color: #616161;
-  -webkit-transition: background-color 300ms linear;
-  -ms-transition: background-color 300ms linear;
-  transition: background-color 300ms linear;
-}
-
 .bookQuoteHeading {
   font-size: 2rem;
 }
@@ -241,6 +200,7 @@ height: 25rem;
   text-align: center;
   margin: 2rem 20rem;
   line-height: 1.5rem;
+  padding: 1rem 0;
 }
 
 .aboutUsHeading {

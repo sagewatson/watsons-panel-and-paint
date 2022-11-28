@@ -13,8 +13,8 @@ const MainSlider = () => {
           reflected in how smooth the body of your car will look and the fine
           paint job that will be applied to it{" "}
         </p>
-        <button className={styles.servicesButton}>Services</button>
-        <button className={styles.contactButton}>Contact</button>
+        <button className={styles.btn}>Services</button>
+        <button className={styles.btn}>Contact</button>
       </div>
     </div>
   );
