@@ -12,7 +12,11 @@ const Footer = () => {
           width={300}
           height={37}
         />
-        <p>Footer links</p>
+        <div>
+          <p>Privacy Policy</p>
+          <p>Contact</p>
+          <p></p>
+        </div>
         <div>
           <h3>Opening hours</h3>
           <p className={styles.openingHours}>

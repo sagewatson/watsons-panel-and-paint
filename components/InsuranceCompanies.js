@@ -26,7 +26,7 @@ import toyotaLogo from "../public/images/homepage-images/insurance-logos/toyota.
 
 const InsuranceCompanies = () => {
   return (
-    <div className={styles.insuranceContainer}>
+    <div className={styles.insuranceContainer} id="insurers">
       <h2>
         We are backed by the most popular and trusted insurance companies around
         the country

@@ -2,7 +2,7 @@ import styles from "../styles/Home.module.css";
 
 const AboutUs = () => {
   return (
-    <div className={styles.aboutUsContainer}>
+    <div className={styles.aboutUsContainer} id="about">
       <h2 className={styles.aboutUsHeading}>About us</h2>
       <p className={styles.aboutUsSubHeading}>
         Watson's Panel & Paint is a local, family owned business which has been

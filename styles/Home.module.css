@@ -207,6 +207,72 @@ height: 25rem;
   font-size: 2rem;
 }
 
-.aboutUsSubHeading {
+/* contact */
 
+.sendAMessage {
+  text-align: center;
+}
+
+.contactContainer {
+  background-color: rgb(51, 82, 139);
+  margin: 5rem 25rem;
+  padding: 5rem 10rem;
+  border-radius: 25px;
+  color: white;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.contactContainer form {
+ display: grid;
+ grid-template-columns: 1fr;
+ line-height: 2rem;
+ justify-items: center;
+}
+
+.formAreas {
+  background-color: rgb(240, 240, 240);
+  border-radius: 25px;
+  padding: 0.7rem 0;
+  width: 80%;
+  text-align: center;
+  font-size: 1rem;
+  color: #444444;
+}
+
+.contactContainer .btn {
+  margin: 2rem 10rem 0 10rem;
+  background-color: #fdfdfd;
+  color: black;
+  border-color: rgba(0, 0, 0, 0.571);
+}
+
+.contactTextSection {
+  text-align: center;
+  margin-top: 3rem;
+ }
+
+.contactTextSection a {
+  color:rgb(39, 64, 255);
+}
+
+.contactTextSection h2 {
+ font-size: 1rem;
+ color: #5f5f5f;
+}
+
+.contactLocation {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 5rem;
+  text-align: center;
+  justify-items: center;
+}
+
+.findUsText {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.addressOpeningHours {
+  margin-top: 2rem;
 }
