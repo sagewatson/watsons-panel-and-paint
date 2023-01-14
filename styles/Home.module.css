@@ -24,6 +24,20 @@
   line-height: 2rem;
 }
 
+@media only screen and (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr;
+    padding: 2rem 2rem
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 2rem
+  }
+}
+
 /* header */
 
 .header {
@@ -60,32 +74,37 @@ box-shadow: 15px 20px #fdfdfd;
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 800px) {
+  .phoneIcon {
+   visibility: hidden;
+  }
+  
+  .phoneContact {
+    visibility: hidden;
+  }
+}
+
 /* main slider */
 
 .heroContainer {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../public/images/homepage-images/main-slider.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
-  /* margin: -1.4rem; */
+  height: 70vh;
   background-position: center center;
 }
 
 .heroOverlay {
   text-align: center;
-
-}
-
-
-.heroOverlay {
-  padding-top: 10rem;
+  padding-top: 4rem;
 }
 
 .mainHeading { 
   text-transform: capitalize;
   font-size: 4rem;
   color:  #ffffff;;
-  margin: 2rem 40rem
+  margin: 2rem 40rem;
+  /* max-width: 80%; */
 }
 
 .subHeading {
@@ -115,6 +134,52 @@ box-shadow: 15px 20px #fdfdfd;
   transition: background-color 300ms linear;
 }
 
+@media only screen and (max-width: 500px) {
+  .mainHeading { 
+    font-size: 3rem;
+    margin: 0rem
+  }
+  .subHeading {
+    margin: 2rem;
+    font-size: 1.2rem;
+    color:white
+  }
+  .heroContainer {
+    height: 90vh;
+  }
+  .heroOverlay {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .mainHeading { 
+    margin: -5rem 0 0 0;
+  }
+  .subHeading {
+    margin: 2rem;
+    font-size: 1.2rem;
+    color:white
+  }
+  .heroContainer {
+    height: 80vh;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
+  .mainHeading { 
+    margin: 0rem
+  }
+  .subHeading {
+    margin: 2rem;
+    font-size: 1.2rem;
+    color:white
+  }
+  .heroContainer {
+    height: 50vh;
+  }
+}
+
 /* insurance companies */
 
 .insuranceCompanies {
@@ -129,6 +194,27 @@ box-shadow: 15px 20px #fdfdfd;
   margin: 4rem;
 }
 
+@media only screen and (max-width: 800px) {
+  .insuranceImages {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2rem;
+  }
+  .insuranceCompanies {
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
+  .insuranceImages {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .insuranceCompanies {
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
+}
+
 /* new facilities */
 
 .paintBooth {
@@ -141,13 +227,19 @@ box-shadow: 15px 20px #fdfdfd;
 .paintBoothImage {
   object-fit: cover;
   width: 100%;
-height: 25rem;
+  height: 25rem;
 }
 
 .paintBoothText {
   text-align: center;
   color: white;
   margin: 5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .paintBooth {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* icons */
@@ -169,13 +261,23 @@ height: 25rem;
   font-size: 1rem;
   }
 
+  @media only screen and (max-width: 800px) {
+    .icons p {
+      font-size: 0.8rem;
+      }
+      .icons {
+        margin: 2rem 2rem;
+        line-height: 3rem;
+      }
+  }
+
 /* book a quote CTA  */
 
 .workshopCarsBackground {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../public/images/homepage-images/workshop-cars.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 20rem;
   margin: 0;
   background-position: center center;
 }
@@ -183,7 +285,7 @@ height: 25rem;
 .bookQuoteContainer {
   color: white;
   text-align: center;
-  padding-top: 9rem;
+  padding-top: 3rem;
 }
 
 .bookQuoteHeading {
@@ -205,6 +307,21 @@ height: 25rem;
 
 .aboutUsHeading {
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .aboutUsContainer {
+    text-align: center;
+    margin: 0 4rem;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+  }
+
+  .bookQuoteContainer {
+    color: white;
+    text-align: center;
+    padding-top: 4rem;
+  }
 }
 
 /* contact */
@@ -276,3 +393,48 @@ height: 25rem;
 .addressOpeningHours {
   margin-top: 2rem;
 }
+
+.locationIframe {
+  width: 100%;
+  height: 20rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .contactContainer {
+    margin: 5rem 0rem;
+    padding: 5rem 0rem;
+
+  }
+  .formAreas {
+    width: 40%;
+  } 
+  .contactTextSection h2 {
+   max-width: 90%;
+   margin: 0 2rem;
+
+   }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1000px) {
+  .contactContainer {
+    margin: 5rem -1rem;
+    padding: 5rem 0rem;
+  }
+  .formAreas {
+    width: 60%;
+  } 
+  .contactTextSection h2 {
+    margin: 0 2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  .contactContainer {
+    margin: 5rem 5rem;
+    padding: 5rem 5rem;
+  }
+  .formAreas {
+    width: 60%;
+  } 
+}
+

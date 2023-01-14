@@ -7,8 +7,8 @@ const Logo = () => {
       <Image
         src={logo}
         alt="watson's panel and paint logo"
-        width={400}
-        height={50}
+        width={350}
+        height={43.75}
       />
     </div>
   );

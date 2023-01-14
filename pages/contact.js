@@ -64,9 +64,8 @@ export default function Contact() {
       <h1 className={styles.findUsText}>Need to find us?</h1>
       <div className={styles.contactLocation}>
         <iframe
+          className={styles.locationIframe}
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.4387402553393!2d173.2546557152429!3d-35.09575388033503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0974b5d59acb63%3A0x3efdf2ab12afe867!2sWatsons%20Panel%20%26%20Paint!5e0!3m2!1sen!2snz!4v1669683881970!5m2!1sen!2snz"
-          width="500"
-          height="300"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
