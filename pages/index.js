@@ -14,9 +14,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <Header />
+        <title>Watson's Panel & Paint</title>
       </Head>
-
+      <Header />
       <main className={styles.main}>
         <MainSlider />
         <Services />
