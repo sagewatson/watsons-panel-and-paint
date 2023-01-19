@@ -21,6 +21,7 @@ import towerLogo from "../public/images/homepage-images/insurance-logos/tower.jp
 import tradeMeLogo from "../public/images/homepage-images/insurance-logos/trade-me.jpg";
 import veroLogo from "../public/images/homepage-images/insurance-logos/vero.jpg";
 import toyotaLogo from "../public/images/homepage-images/insurance-logos/toyota.jpg";
+import fmgLogo from "../public/images/homepage-images/insurance-logos/fmg.jpeg";
 
 // add FMG and Protecta Logo 100px x 100px
 
@@ -37,7 +38,7 @@ const InsuranceCompanies = () => {
         <Image src={amiLogo} alt="AMI logo" />
         <Image src={ampLogo} alt="AMP logo" />
         <Image src={andoLogo} alt="Ando logo" />
-        <Image src={fleetSmartLogo} alt="Fleet Smart logo" />
+        <Image src={fmgLogo} alt="FMG logo" width="100" height="100" />
         <Image src={fleetLogo} alt="Fleet logo" />
         <Image src={iagLogo} alt="IAG logo" />
         <Image src={lanternLogo} alt="Lantern logo" />

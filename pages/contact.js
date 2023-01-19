@@ -22,11 +22,11 @@ export default function Contact() {
       </div>
       <div className={styles.contactContainer}>
         <h2 className={styles.sendAMessage}>Send us a message</h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className={styles.mainForm}>
           <label htmlFor="name">Full Name</label>
           <input
             id="name"
-            type="tex"
+            type="text"
             name="name"
             className={styles.formAreas}
           />

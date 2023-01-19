@@ -90,7 +90,7 @@ box-shadow: 15px 20px #fdfdfd;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),  url('../public/images/homepage-images/main-slider.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 45rem;
   background-position: center center;
 }
 
@@ -101,15 +101,15 @@ box-shadow: 15px 20px #fdfdfd;
 
 .mainHeading { 
   text-transform: capitalize;
-  font-size: 4rem;
+  font-size: 5rem;
   color:  #ffffff;;
-  margin: 2rem 40rem;
+  margin: 2rem 50rem;
   /* max-width: 80%; */
 }
 
 .subHeading {
-  margin: 0 20rem 2rem 20rem;
-  font-size: 1.2rem;
+  margin: 0 35rem 2rem 35rem;
+  font-size: 1.4rem;
   color:white
 }
 
@@ -134,7 +134,7 @@ box-shadow: 15px 20px #fdfdfd;
   transition: background-color 300ms linear;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .mainHeading { 
     font-size: 3rem;
     margin: 0rem
@@ -145,16 +145,16 @@ box-shadow: 15px 20px #fdfdfd;
     color:white
   }
   .heroContainer {
-    height: 90vh;
+    height: 38rem;
   }
   .heroOverlay {
     padding-top: 2rem;
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 800px) {
+@media only screen and (min-width: 600px) and (max-width: 800px) {
   .mainHeading { 
-    margin: -5rem 0 0 0;
+    margin: 2rem 0 0 0;
   }
   .subHeading {
     margin: 2rem;
@@ -162,13 +162,13 @@ box-shadow: 15px 20px #fdfdfd;
     color:white
   }
   .heroContainer {
-    height: 80vh;
+    height: 45rem;
   }
 }
 
-@media only screen and (min-width: 800px) and (max-width: 1500px) {
+@media only screen and (min-width: 800px) and (max-width: 1700px) {
   .mainHeading { 
-    margin: 0rem
+    margin: 5rem 0 0 0
   }
   .subHeading {
     margin: 2rem;
@@ -176,7 +176,21 @@ box-shadow: 15px 20px #fdfdfd;
     color:white
   }
   .heroContainer {
-    height: 50vh;
+    height: 40rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2035px) {
+  .mainHeading { 
+    margin: 5rem 20rem 0 20rem;
+  }
+  .subHeading {
+    margin: 2rem 10rem 2rem 10rem;
+    font-size: 1.2rem;
+    color:white
+  }
+  .heroContainer {
+    height: 40rem;
   }
 }
 
@@ -240,6 +254,13 @@ box-shadow: 15px 20px #fdfdfd;
   .paintBooth {
     grid-template-columns: 1fr;
   }
+  .paintBoothText h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  .paintBoothText {
+    margin: 2rem 3rem;
+  }
 }
 
 /* icons */
@@ -263,7 +284,7 @@ box-shadow: 15px 20px #fdfdfd;
 
   @media only screen and (max-width: 800px) {
     .icons p {
-      font-size: 0.8rem;
+      font-size: 0.7rem;
       }
       .icons {
         margin: 2rem 2rem;
@@ -331,12 +352,10 @@ box-shadow: 15px 20px #fdfdfd;
 }
 
 .contactContainer {
-  background-color: rgb(51, 82, 139);
-  margin: 5rem 25rem;
-  padding: 5rem 10rem;
-  border-radius: 25px;
+  background-color: rgb(31, 31, 31);
   color: white;
-  box-shadow: 5px 10px 8px #888888;
+  padding: 8rem 20rem;
+  margin: 5rem 0;  
 }
 
 .contactContainer form {
@@ -348,7 +367,7 @@ box-shadow: 15px 20px #fdfdfd;
 
 .formAreas {
   background-color: rgb(240, 240, 240);
-  border-radius: 25px;
+  border-radius: 5px;
   padding: 0.7rem 0;
   width: 80%;
   text-align: center;
@@ -357,7 +376,7 @@ box-shadow: 15px 20px #fdfdfd;
 }
 
 .contactContainer .btn {
-  margin: 2rem 10rem 0 10rem;
+  margin: 2rem 0 0 0;
   background-color: #fdfdfd;
   color: black;
   border-color: rgba(0, 0, 0, 0.571);
@@ -403,21 +422,18 @@ box-shadow: 15px 20px #fdfdfd;
   .contactContainer {
     margin: 5rem 0rem;
     padding: 5rem 0rem;
-
   }
   .formAreas {
-    width: 40%;
+    width: 70%;
   } 
   .contactTextSection h2 {
-   max-width: 90%;
-   margin: 0 2rem;
-
-   }
+    margin: 0 2rem;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1000px) {
   .contactContainer {
-    margin: 5rem -1rem;
+    margin: 5rem 0rem;
     padding: 5rem 0rem;
   }
   .formAreas {
@@ -429,12 +445,12 @@ box-shadow: 15px 20px #fdfdfd;
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1500px) {
-  .contactContainer {
-    margin: 5rem 5rem;
-    padding: 5rem 5rem;
-  }
   .formAreas {
     width: 60%;
   } 
+  .contactContainer {
+    margin: 5rem 0rem;
+    padding: 5rem 0rem;
+  }
 }
 

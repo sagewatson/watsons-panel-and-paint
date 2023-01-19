@@ -1,4 +1,4 @@
-import logo from "../public/images/homepage-images/WATSON-LOGO-STRETCHED-TRANSPARENT.png";
+import logo from "../public/images/homepage-images/watsons-logo.png";
 import Image from "next/image";
 
 const Logo = () => {
