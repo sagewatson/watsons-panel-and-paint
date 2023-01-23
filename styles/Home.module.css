@@ -476,15 +476,24 @@ box-shadow: 15px 20px #fdfdfd;
     display: none;
   }
   .menuContainer .menuList .homeLi {
-    display: none;
+font-size: 0.8rem;
+  }
+  .menuContainer .menuList .contactLi {
+    font-size: 0.8rem;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .phoneIcon {
     visibility: hidden;
    }
    .phoneContact {
      visibility: hidden;
    }
+   .menuContainer .menuList .homeLi {
+    font-size: 1rem;
+      }
+      .menuContainer .menuList .contactLi {
+        font-size: 1rem;
+      }
   }

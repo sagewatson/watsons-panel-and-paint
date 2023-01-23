@@ -22,7 +22,7 @@ const Nav = () => {
           {" "}
           <Link href="#insurers">Insurers</Link>
         </li>
-        <li>
+        <li className={styles.contactLi}>
           {" "}
           <Link href="/contact">Contact</Link>
         </li>
