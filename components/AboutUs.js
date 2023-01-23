@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const AboutUs = () => {
   return (
@@ -22,11 +23,11 @@ const AboutUs = () => {
       </p>
       <button className={styles.btn}>
         {" "}
-        <a href="/contact">Contact Us</a>
+        <Link href="/contact">Contact Us</Link>
       </button>
       <button className={styles.btn}>
         {" "}
-        <a href="/contact">Book a Quote</a>
+        <Link href="/contact">Book a Quote</Link>
       </button>
     </div>
   );
