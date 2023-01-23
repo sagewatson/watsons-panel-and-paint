@@ -475,6 +475,9 @@ box-shadow: 15px 20px #fdfdfd;
   .menuContainer .menuList .aboutLi {
     display: none;
   }
+  .menuContainer .menuList .homeLi {
+    display: none;
+  }
 }
 
 @media (max-width: 350px) {

@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <div className={styles.menuContainer}>
       <ul className={`${styles.menuList} navigation`}>
-        <li>
+        <li className={styles.homeLi}>
           {" "}
           <Link href="/">Home</Link>
         </li>
