@@ -38,12 +38,12 @@ const InsuranceCompanies = () => {
         <Image src={amiLogo} alt="AMI logo" />
         <Image src={ampLogo} alt="AMP logo" />
         <Image src={andoLogo} alt="Ando logo" />
-        <Image src={fmgLogo} alt="FMG logo" width="100" height="100" />
+        <Image src={lumleyLogo} alt="Lumley logo" />
         <Image src={fleetLogo} alt="Fleet logo" />
         <Image src={iagLogo} alt="IAG logo" />
         <Image src={lanternLogo} alt="Lantern logo" />
         <Image src={licensedCraLogo} alt="Licensed CRA logo" />
-        <Image src={lumleyLogo} alt="Lumley logo" />
+        <Image src={fmgLogo} alt="FMG logo" width="100" height="100" />
         <Image src={nacLogo} alt="NAC logo" />
         <Image src={nziLogo} alt="NZI logo" />
         <Image src={qbeLogo} alt="QBE logo" />

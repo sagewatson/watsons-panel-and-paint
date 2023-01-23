@@ -6,19 +6,19 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <div className={styles.menuContainer}>
-      <ul className={styles.menuList}>
+      <ul className={`${styles.menuList} navigation`}>
         <li>
           {" "}
           <Link href="/">Home</Link>
         </li>
-        <li>
+        <li className={styles.bookAssessmentLi}>
           <Link href="/book-assessment">Book an Assessment</Link>
         </li>
-        <li>
+        <li className={styles.aboutLi}>
           {" "}
           <Link href="#about">About</Link>
         </li>
-        <li>
+        <li className={styles.insurersLi}>
           {" "}
           <Link href="#insurers">Insurers</Link>
         </li>

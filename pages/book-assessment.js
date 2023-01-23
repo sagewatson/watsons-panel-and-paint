@@ -7,7 +7,7 @@ export default function BookAssessment() {
     <div className={styles.container}>
       <Header />
 
-      <p>testsetsefsdf</p>
+      <p>Coming soon. Contact us at admin@watsonspp.co.nz</p>
 
       <footer>
         <Footer />

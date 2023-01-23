@@ -74,16 +74,6 @@ box-shadow: 15px 20px #fdfdfd;
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 800px) {
-  .phoneIcon {
-   visibility: hidden;
-  }
-  
-  .phoneContact {
-    visibility: hidden;
-  }
-}
-
 /* main slider */
 
 .heroContainer {
@@ -134,7 +124,7 @@ box-shadow: 15px 20px #fdfdfd;
   transition: background-color 300ms linear;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .mainHeading { 
     font-size: 3rem;
     margin: 0rem
@@ -149,6 +139,24 @@ box-shadow: 15px 20px #fdfdfd;
   }
   .heroOverlay {
     padding-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+  .mainHeading { 
+    font-size: 3rem;
+    margin: 0rem
+  }
+  .subHeading {
+    margin: 2rem;
+    font-size: 1.2rem;
+    color:white
+  }
+  .heroContainer {
+    height: 38rem;
+  }
+  .heroOverlay {
+    padding-top: 5rem;
   }
 }
 
@@ -454,3 +462,26 @@ box-shadow: 15px 20px #fdfdfd;
   }
 }
 
+/* menu mobile */
+
+@media (max-width: 767px) {
+
+ .menuContainer .menuList .bookAssessmentLi {
+    display: none;
+  }
+  .menuContainer .menuList .insurersLi {
+    display: none;
+  }
+  .menuContainer .menuList .aboutLi {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .phoneIcon {
+    visibility: hidden;
+   }
+   .phoneContact {
+     visibility: hidden;
+   }
+  }

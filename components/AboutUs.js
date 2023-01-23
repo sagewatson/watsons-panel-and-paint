@@ -20,8 +20,14 @@ const AboutUs = () => {
       <p className={styles.aboutUsSubHeading}>
         Let us take care of your stress and contact us, or book a free quote
       </p>
-      <button className={styles.btn}>Contact Us</button>
-      <button className={styles.btn}>Book a Quote</button>
+      <button className={styles.btn}>
+        {" "}
+        <a href="/contact">Contact Us</a>
+      </button>
+      <button className={styles.btn}>
+        {" "}
+        <a href="/contact">Book a Quote</a>
+      </button>
     </div>
   );
 };
