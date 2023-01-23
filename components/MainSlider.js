@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const MainSlider = () => {
   return (
@@ -15,11 +16,11 @@ const MainSlider = () => {
         </p>
         <button className={styles.btn}>
           {" "}
-          <a href="/contact">Services</a>
+          <Link href="/contact">Services</Link>
         </button>
         <button className={styles.btn}>
           {" "}
-          <a href="/contact">Contact</a>
+          <Link href="/contact">Contact</Link>
         </button>
       </div>
     </div>

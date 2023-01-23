@@ -1,4 +1,5 @@
 import styles from "../styles/Home.module.css";
+import Link from "next/link";
 
 const BookQuoteCta = () => {
   return (
@@ -9,7 +10,7 @@ const BookQuoteCta = () => {
           At Watson's Panel & Paint we offer free quotes - book one online now
         </p>
         <button className={styles.btn}>
-          <a href="/contact">Book now</a>
+          <Link href="/contact">Book now</Link>
         </button>
       </div>
     </div>
