@@ -20,7 +20,7 @@ const Footer = () => {
         <div>
           <h3>Opening hours</h3>
           <p className={styles.openingHours}>
-            Monday to Friday - 8am – 5pm <br /> Saturday & Sunday - Closed{" "}
+            Monday to Friday - 8am – 4:30pm <br /> Saturday & Sunday - Closed{" "}
           </p>
         </div>
         <iframe
