@@ -16,7 +16,7 @@ export default function Contact() {
         <h2>
           Need to get in touch? We can answer any of your questions. Complete
           this form or contact us on
-          <a href="tel:+6409408250"> 09408250</a>, or via email
+          <a href="tel:+64094082520"> 094082520</a>, or via email
           <a href="mailto:admin@watsonspp.co.nz"> admin@watsonspp.co.nz</a>
         </h2>
       </div>
