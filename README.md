@@ -1,6 +1,6 @@
 ## Description 
 
-This is an app built with Next.js, React and Tailwind for Watson's Panel & Paint. To view the end result, check out https://watsonspp.co.nz
+This is an app built with Next.js and React for Watson's Panel & Paint. To view the end result, check out https://watsonspp.co.nz
 
 ## Getting Started
 
