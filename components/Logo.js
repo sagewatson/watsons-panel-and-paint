@@ -6,7 +6,7 @@ const Logo = () => {
     <div>
       <Image
         src={logo}
-        alt="watson's panel and paint logo"
+        alt="Watson's Panel and Paint"
         width={350}
         height={43.75}
       />
